@@ -46,7 +46,7 @@ if hume <= 10:
 elif hume <= 10 or hume <= 12:
     cafe = "Bolsa Vacuum"
 else:
-    cafe = "Contenedor Refrigerado"
+    cafe = "Contenedor Refrigerado" 
 
 gran = int(input("¿Que tipo de grano quiere? 1.- Arábica, 2.- Robusta: "))
 while gran != 1 and gran != 2:
